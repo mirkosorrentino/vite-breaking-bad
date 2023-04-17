@@ -18,7 +18,7 @@ export default {
   },
 
   mounted() {
-    axios.get("store.apiURL").then((resp) => {
+    axios.get(store.apiURL).then((resp) => {
       this.store.cards = resp.data.data;
       console.log(resp);
     })
