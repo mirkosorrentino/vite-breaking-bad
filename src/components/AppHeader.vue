@@ -19,7 +19,7 @@ export default {
 </template>
 
 <style scoped lang="scss">
-@use "../style/general" as *;
+
 // @use "../style/mixins" as *;
 // @use "../style/variables" as *;
 
